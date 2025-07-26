@@ -1,0 +1,2 @@
+This is sample file 1.
+Used for testing download APIs.

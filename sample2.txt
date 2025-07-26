@@ -1,0 +1,2 @@
+This is sample file 2.
+Another file for API testing.

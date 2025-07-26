@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/Welcome3Element"
+    },
+    "definitions": {
+        "Welcome3Element": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "age": {
+                    "type": "integer"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "passport": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "age",
+                "country",
+                "id",
+                "name",
+                "passport"
+            ],
+            "title": "Welcome3Element"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Pragmatic Programmer",
+      "subtitle": "Your Journey to Mastery",
+      "isbn": "978-0135957059",
+      "publisher": "Addison-Wesley Professional",
+      "publishedDate": "2019-09-13"
+    },
+    {
+      "id": 2,
+      "title": "Clean Code",
+      "subtitle": "A Handbook of Agile Software Craftsmanship",
+      "isbn": "978-0132350884",
+      "publisher": "Prentice Hall",
+      "publishedDate": "2008-08-01"
+    },
+    {
+      "id": 3,
+      "title": "Design Patterns",
+      "subtitle": "Elements of Reusable Object-Oriented Software",
+      "isbn": "978-0201633610",
+      "publisher": "Addison-Wesley Professional",
+      "publishedDate": "1994-10-31"
+    },
+    {
+      "id": 4,
+      "title": "Effective Java",
+      "subtitle": "Programming Language Guide",
+      "isbn": "978-0134685991",
+      "publisher": "Addison-Wesley Professional",
+      "publishedDate": "2018-01-06"
+    }
+  ]
+}

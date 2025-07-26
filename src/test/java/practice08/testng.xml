@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UserAPITestSuite">
+    <test name="UserCRUDTests">
+                <classes>
+                    <class name="practice08.CreateUser" />
+                    <class name="practice08.GetUser" />
+                    <class name="practice08.UpdateUser" />
+                    <class name="practice08.DeleteUser" />
+                </classes>
+    </test>
+</suite>

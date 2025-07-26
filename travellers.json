@@ -1,0 +1,32 @@
+{
+  "travelers": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "age": 30,
+      "country": "USA",
+      "passport": "US123456"
+    },
+    {
+      "id": 2,
+      "name": "Ravi Kumar",
+      "age": 28,
+      "country": "India",
+      "passport": "IN987654"
+    },
+    {
+      "id": 3,
+      "name": "Maria Lopez",
+      "age": 35,
+      "country": "Spain",
+      "passport": "ES567890"
+    },
+    {
+      "id": 4,
+      "name": "Kenji Tanaka",
+      "age": 42,
+      "country": "Japan",
+      "passport": "JP222333"
+    }
+  ]
+}

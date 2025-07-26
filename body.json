@@ -1,0 +1,14 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Rajat Sahoo",
+      "phone": "9472653638",
+      "location": "Odisha",
+      "courses": [
+        "C",
+        "C++"
+      ]
+    }
+  ]
+}
