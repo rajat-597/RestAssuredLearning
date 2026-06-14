@@ -52,7 +52,8 @@ public class DifferentWaysToCreatePostBody {
                 .extract().response();
 
         studentId = response.jsonPath().getString("id");
-
+// Note: response.jsonPath().getString("id") means →
+// "From the API response, parse the JSON and give me the value of 'id' as a String"
     }
 
   //  @Test(priority = 2)
