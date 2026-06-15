@@ -60,7 +60,9 @@ public class ParsingJsonResponseData {
         // Get the array under the "books" key
         JSONArray booksArray = jsonObject.getJSONArray("books");
         use bookArray to iterate like above*/
-
+        for(int j = 0; j<booksArray.length(); i++){
+            jsonObject.getJSONArray("book").getJSONObject(j).get("title").toString();
+        }
 
         // third approach
        /* JSONArray --> JSONObject --> JSONArray(courses)
