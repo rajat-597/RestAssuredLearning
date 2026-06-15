@@ -25,7 +25,7 @@ public class ParsingJsonResponseData {
                 .statusCode(200)
                 .header("Content-Type","application/json; charset=utf-8")
                 .log().all()
-                .body("[1].subtitle",equalTo("A Handbook of Agile Software Craftsmanship")); */
+                .body("books[1].subtitle",equalTo("A Handbook of Agile Software Craftsmanship")); */
 
         // Approach 2
 
@@ -36,7 +36,7 @@ public class ParsingJsonResponseData {
 
    /*   Assert.assertEquals(res.getStatusCode(),200);
       Assert.assertEquals(res.header("Content-Type"),"application/json; charset=utf-8");
-     String subTitleName = res.jsonPath().getString("[1].subtitle").toString();
+     String subTitleName = res.jsonPath().getString("books[1].subtitle").toString();
      Assert.assertEquals(subTitleName , "A Handbook of Agile Software Craftsmanship");
    */
     // [ {...}, {...} ]
